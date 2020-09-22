@@ -4,9 +4,9 @@ public class exB5 {
 	public static void main(String[] args) {
 		String userName = null;
 		String greetedAgain = null;
+		Scanner scanner = new Scanner( System.in );
 
 		do {
-			Scanner scanner = new Scanner( System.in );
 			System.out.print( "Enter your user   : " );
 			userName = scanner.nextLine();
 
