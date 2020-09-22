@@ -25,9 +25,10 @@ public class exB3 {
 		} while (endEntry);
 
 		System.out.println("Size of the Array : " + intergerArray.size());
-		for (int i=0; i<intergerArray.size(); i++){
-			System.out.println("intergerArray number : " + intergerArray.get(i));
-	    	totalOfInterger += intergerArray.get(i);
+
+		for (int number: intergerArray){
+			System.out.println("intergerArray number : " + number);
+	    	totalOfInterger += number;
 		}
 	
 		System.out.println("Total : " + totalOfInterger);
