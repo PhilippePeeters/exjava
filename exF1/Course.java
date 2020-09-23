@@ -56,9 +56,17 @@ public class Course {
 		this.contentListInstructors = contentListInstructors;
 	}
 
+	public void addInstructor(String instructor) {
+		contentListInstructors.add(instructor);
+	}
+	
+	public void removeInstructor(String instructor) {
+		contentListInstructors.remove(instructor);
+	}
+
 	public void printInfo() {
 		String label;
-		float priceOfCourseVatIncluded = totalPriceCalculation(numberOfDayCourse,priceOfCoursePerDay,priorKnowledgeOfCourse);
+		float priceOfCourseVatIncluded = totalPriceCalculation();
 
 		if (priceOfCourseVatIncluded < 500) {
 			label = " CHEAP";
@@ -70,7 +78,7 @@ public class Course {
 
 		System.out.println("Title : " + titleCourse + label);
 		System.out.println("There are " + contentListInstructors.size() + " instructors for this course");
-		printInstructor();
+		printInstructors();
 		System.out.println("Number of day  : " + numberOfDayCourse);
 		System.out.println("Price : " + priceOfCoursePerDay);
 		System.out.println("Is prior knowledge needed : " + priorKnowledgeOfCourse);
@@ -78,16 +86,14 @@ public class Course {
 		
 	}
 	
-	private float totalPriceCalculation(int numberOfDayCourse,
-			   								   int priceOfCoursePerDay,
-			   								   boolean priorKnowledgeOfCourse) {
+	private float totalPriceCalculation() {
 		int priceOfCourse = 0;
 		float priceOfCourseVatIncluded = 0.0f;
 		float priceOfVat = 0.0f;
 
 		priceOfVat = 0;
-		priceOfCourse = numberOfDayCourse * priceOfCoursePerDay;
-		if (numberOfDayCourse > 3 && priorKnowledgeOfCourse) {
+		priceOfCourse = this.numberOfDayCourse * this.priceOfCoursePerDay;
+		if (this.numberOfDayCourse > 3 && this.priorKnowledgeOfCourse) {
 			System.out.println("No VAT !");
 		} else {
 			priceOfVat = (( (float) priceOfCourse * 21) / 100);
@@ -95,15 +101,7 @@ public class Course {
 		return priceOfCourseVatIncluded = priceOfCourse + priceOfVat;
 	}
 	
-	public void addInstructor(String instructor) {
-		contentListInstructors.add(instructor);
-	}
-	
-	public void removeInstructor(String instructor) {
-		contentListInstructors.remove(instructor);
-	}
-	
-	public void printInstructor() {
+	public void printInstructors() {
 		for (String instructorName: contentListInstructors) {
 		System.out.println("instructor Name : " + instructorName);
 		}
