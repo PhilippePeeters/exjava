@@ -52,7 +52,6 @@ public class exD1 {
 		String inputFileName = "E:\\JavaReskilling\\GitProjects\\exjava\\exjava\\exD1\\instructors.txt";
 
 		try {
-//			ArrayList<String> instructorsByCourse = new ArrayList<String>();
 			BufferedReader in = new BufferedReader(new FileReader(inputFileName));
 			String nextLine = null;
 			while ((nextLine = in.readLine()) != null) {
