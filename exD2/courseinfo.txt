@@ -1,0 +1,6 @@
+Title : Java Training Beginner EXPENSIVE
+Number of day  : 10
+Price : 467
+Is prior knowledge needed : true
+There are 5 instructors for this course
+The price is : 4670.0 Euro
