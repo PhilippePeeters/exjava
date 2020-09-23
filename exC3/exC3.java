@@ -22,8 +22,9 @@ public class exC3 {
 			  }  
 		} while (endEntry);
 
-		DoMath calculateAverage = new DoMath();
-		float averageNumbers = calculateAverage.calculateAverage(intergerArray);
+//		DoMath calculateAverage = new DoMath();
+//		float averageNumbers = calculateAverage.calculateAverage(intergerArray);
+		float averageNumbers = DoMath.calculateAverage(intergerArray);
 
 		System.out.println("Average :"+ averageNumbers);	}
 }

@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class DoMath {
 		
-	public float calculateAverage(ArrayList<Integer> intergerArray) {
+	public static float calculateAverage(ArrayList<Integer> intergerArray) {
 		float calculatedAverage = 0.0f;
 		int totalOfInterger = 0;
 		
