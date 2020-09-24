@@ -15,11 +15,11 @@ public class TestCourse {
 		Course c4 = new Course("Java Training", 2, 25, false);
 		c4.addInstructor("Peter");
 		c4.addInstructor("Bart");
-		c4.printInstructor();
+		c4.printInstructors();
 		c4.removeInstructor("Bart");
-		c4.printInstructor();
+		c4.printInstructors();
 		c4.addInstructor("Cecile");
-		c4.printInstructor();
+		c4.printInstructors();
 		c4.printInfo();
 		
 	}
