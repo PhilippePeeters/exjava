@@ -1,5 +1,6 @@
 package exjava;
 
+
 public class exF2 {
 
 	public static void main(String[] args) {
@@ -33,6 +34,10 @@ public class exF2 {
 		c3.addInstructor(i7);
 		c3.removeInstructor(i8);
 		c3.printInfo();
+		
+		// Info instructor only 
+		i1.printInfo();
+		i4.printInfo();
 	}
 }
 
