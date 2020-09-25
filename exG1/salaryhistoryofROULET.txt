@@ -1,0 +1,7 @@
+Salary of Patrick ROULET at 25 is 5000.0
+Salary of Patrick ROULET at 30 is 5150.0
+Salary of Patrick ROULET at 35 is 5304.5
+Salary of Patrick ROULET at 40 is 5463.635
+Salary of Patrick ROULET at 45 is 5627.5435
+Salary of Patrick ROULET at 50 is 5796.3696
+Salary of Patrick ROULET at 55 is 5970.2607

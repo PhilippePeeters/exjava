@@ -1,0 +1,2 @@
+Salary of Peter OTTO at 18 is 8000.0
+Salary of Peter OTTO at 23 is 8240.0

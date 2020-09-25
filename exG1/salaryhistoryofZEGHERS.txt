@@ -1,0 +1,9 @@
+Salary of Bruno ZEGHERS at 25 is 8000.0
+Salary of Bruno ZEGHERS at 30 is 8240.0
+Salary of Bruno ZEGHERS at 35 is 8487.2
+Salary of Bruno ZEGHERS at 40 is 8741.816
+Salary of Bruno ZEGHERS at 45 is 9004.07
+Salary of Bruno ZEGHERS at 50 is 9274.192
+Salary of Bruno ZEGHERS at 55 is 9552.418
+Salary of Bruno ZEGHERS at 60 is 9838.99
+Maximum salary reached
